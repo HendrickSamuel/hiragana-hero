@@ -75,8 +75,8 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-gray-600">
-              We're working on exciting new games to help you master hiragana.
-              Check back soon!
+              We&apos;re working on exciting new games to help you master
+              hiragana. Check back soon!
             </p>
           </CardContent>
           <CardFooter className="mt-auto">

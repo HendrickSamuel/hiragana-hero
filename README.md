@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hiragana Hero (ひらがなヒーロー)
+
+Hiragana Hero is an interactive web application designed to help learners master the Japanese hiragana writing system through engaging quizzes and exercises.
+
+## Motivation
+
+Learning a new writing system can be challenging, especially for me. Hiragana Hero aims to make this process more enjoyable and effective by providing a user-friendly, interactive platform for practicing hiragana characters. Our goal is to help learners build confidence and fluency in reading and writing hiragana through regular, gamified practice.
+
+## Features
+
+- **Character Challenge**: Test your knowledge of individual hiragana characters in a timed quiz format.
+- **Sentence Decoder**: Practice reading full sentences in hiragana, improving your comprehension skills.
+- **Customizable Quizzes**: Choose which types of hiragana characters to include in your practice sessions.
+- **Progress Tracking**: See your scores and improvement over time.
+- **Theme Customization**: Choose from multiple color themes to personalize your learning environment.
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
 
 ## Getting Started
 
-First, run the development server:
+To run Hiragana Hero locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   \`\`\`
+   git clone https://github.com/HendrickSamuel/hiragana-hero.git
+   cd hiragana-hero
+   \`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+   \`\`\`
+   npm install
+   \`\`\`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+   \`\`\`
+   npm run dev
+   \`\`\`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Learn More
+## AI tools
 
-To learn more about Next.js, take a look at the following resources:
+- **Vercel V0**: to create initial project scaffold and proof of concept
+- **GPT 3o-mini-high**: to debug and problem solve generated code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+We welcome contributions to Hiragana Hero! If you have suggestions for improvements or new features, please feel free to create an issue or submit a pull request.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+がんばってください！(Good luck with your studies!)
